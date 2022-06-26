@@ -50,22 +50,22 @@
                             <!-- Menu -->
                             <ul class="nk-menu nk-menu-main">
                                 <li class="nk-menu-item">
-                                    <a href="html/invest/index.html" class="nk-menu-link">
+                                    <a href="index.html" class="nk-menu-link">
                                         <span class="nk-menu-text">Overview</span>
                                     </a>
                                 </li>
                                 <li class="nk-menu-item">
-                                    <a href="html/invest/schemes.html" class="nk-menu-link">
+                                    <a href="schemes.html" class="nk-menu-link">
                                         <span class="nk-menu-text">MY Plan</span>
                                     </a>
                                 </li>
                                 <li class="nk-menu-item">
-                                    <a href="html/invest/invest.html" class="nk-menu-link">
+                                    <a href="invest.html" class="nk-menu-link">
                                         <span class="nk-menu-text">Invest</span>
                                     </a>
                                 </li>
                                 <li class="nk-menu-item">
-                                    <a href="html/invest/profile.html" class="nk-menu-link">
+                                    <a href="profile.html" class="nk-menu-link">
                                         <span class="nk-menu-text">Profile</span>
                                     </a>
                                 </li>
@@ -75,27 +75,27 @@
                                     </a>
                                     <ul class="nk-menu-sub">
                                         <li class="nk-menu-item">
-                                            <a href="html/invest/welcome.html" class="nk-menu-link">
+                                            <a href="welcome.html" class="nk-menu-link">
                                                 <span class="nk-menu-text">Welcome / Intro</span>
                                             </a>
                                         </li>
                                         <li class="nk-menu-item">
-                                            <a href="html/invest/invest-form.html" class="nk-menu-link">
+                                            <a href="invest-form.html" class="nk-menu-link">
                                                 <span class="nk-menu-text">Investment Process</span>
                                             </a>
                                         </li>
                                         <li class="nk-menu-item">
-                                            <a href="html/invest/scheme-details.html" class="nk-menu-link">
+                                            <a href="scheme-details.html" class="nk-menu-link">
                                                 <span class="nk-menu-text">Investment Details</span>
                                             </a>
                                         </li>
                                         <li class="nk-menu-item">
-                                            <a href="html/invest/kyc-application.html" class="nk-menu-link">
+                                            <a href="kyc-application.html" class="nk-menu-link">
                                                 <span class="nk-menu-text">KYC - Get Started</span>
                                             </a>
                                         </li>
                                         <li class="nk-menu-item">
-                                            <a href="html/invest/kyc-form.html" class="nk-menu-link">
+                                            <a href="kyc-form.html" class="nk-menu-link">
                                                 <span class="nk-menu-text">KYC - Application Form</span>
                                             </a>
                                         </li>
@@ -246,7 +246,7 @@
                                                     <span class="sub-text">info@softnio.com</span>
                                                 </div>
                                                 <div class="user-action">
-                                                    <a class="btn btn-icon me-n2" href="html/invest/profile-setting.html"><em class="icon ni ni-setting"></em></a>
+                                                    <a class="btn btn-icon me-n2" href="profile-setting.html"><em class="icon ni ni-setting"></em></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -258,9 +258,9 @@
                                         </div>
                                         <div class="dropdown-inner">
                                             <ul class="link-list">
-                                                <li><a href="html/invest/profile.html"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
-                                                <li><a href="html/invest/profile-setting.html"><em class="icon ni ni-setting-alt"></em><span>Account Setting</span></a></li>
-                                                <li><a href="html/invest/profile-activity.html"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
+                                                <li><a href="profile.html"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
+                                                <li><a href="profile-setting.html"><em class="icon ni ni-setting-alt"></em><span>Account Setting</span></a></li>
+                                                <li><a href="profile-activity.html"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
                                                 <li><a class="dark-switch" href="#"><em class="icon ni ni-moon"></em><span>Dark Mode</span></a></li>
                                             </ul>
                                         </div>
@@ -284,7 +284,7 @@
                         <div class="nk-content-body">
                             <div class="nk-block-head nk-block-head-lg">
                                 <div class="nk-block-head-content">
-                                    <div class="nk-block-head-sub"><a href="html/invest/invest.html" class="back-to"><em class="icon ni ni-arrow-left"></em><span>Back to plan</span></a></div>
+                                    <div class="nk-block-head-sub"><a href="invest.html" class="back-to"><em class="icon ni ni-arrow-left"></em><span>Back to plan</span></a></div>
                                     <div class="nk-block-head-content">
                                         <h2 class="nk-block-title fw-normal">Ready to get started?</h2>
                                     </div>
@@ -294,6 +294,7 @@
                                 <form action="#" class="invest-form">
                                     <div class="row g-gs">
                                         <div class="col-lg-7">
+                                            <label class="form-label">1. Select Payment Method</label>
                                             <div class="invest-field form-group">
                                                 <input type="hidden" value="silver" name="iv-plan" id="invest-choose-plan">
                                                 <div class="dropdown invest-cc-dropdown">
@@ -439,6 +440,28 @@
                                                 </div>
                                                 <div class="form-note pt-2">Note: Please Add the correct number to avoid delay in your deposit</div>
                                             </div><!-- .Reference-field -->
+                                            <!-- .Date-field -->
+                                            <div class="invest-field form-group">
+                                                <div class="form-label-group">
+                                                    <label class="form-label">4. Deposit Date</label>
+                                                </div>
+                                                <div class="form-control-group">
+                                                    <input type="text" class="form-control form-control-amount form-control-lg" id="custom-amount">
+                                                    <div class="form-range-slider" id="amount-step"></div>
+                                                </div>
+                                                <div class="form-note pt-2">Note: Please use the format DD/MM/YYYY</div>
+                                            </div><!-- .Date-field -->
+                                            <!-- .Note-field -->
+                                            <div class="invest-field form-group">
+                                                <div class="form-label-group">
+                                                    <label class="form-label">5. Deposit Note</label>
+                                                </div>
+                                                <div class="form-control-group">
+                                                    <input type="text" class="form-control form-control-amount form-control-lg" id="custom-amount">
+                                                    <div class="form-range-slider" id="amount-step"></div>
+                                                </div>
+                                                <div class="form-note pt-2">Note: Please add any note or refence information</div>
+                                            </div><!-- .Note-field -->
                                             <div class="invest-field form-group">
                                                 <div class="form-label-group">
                                                     <label class="form-label">Your Account Balance</label>
@@ -458,93 +481,48 @@
                                                     </a>
                                                     <div class="dropdown-menu dropdown-menu-auto dropdown-menu-mxh">
                                                         <ul class="invest-cc-list">
-                                                            <li class="invest-cc-item selected">
-                                                                <a href="#" class="invest-cc-opt" data-plan="silver">
-                                                                    <div class="coin-item">
-                                                                        <div class="coin-icon">
-                                                                            <em class="icon ni ni-wallet-alt"></em>
-                                                                        </div>
-                                                                        <div class="coin-info">
-                                                                            <span class="coin-name">NioWallet</span>
-                                                                            <span class="coin-text">Current balance: 2.014095 BTC ( $18,934.84 )</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </a>
-                                                            </li><!-- .invest-cc-item -->
-                                                            <li class="invest-cc-item selected">
-                                                                <a href="#" class="invest-cc-opt" data-plan="starter">
-                                                                    <div class="coin-item">
-                                                                        <div class="coin-icon">
-                                                                            <em class="icon ni ni-sign-btc"></em>
-                                                                        </div>
-                                                                        <div class="coin-info">
-                                                                            <span class="coin-name">BTC Wallet</span>
-                                                                            <span class="coin-text">Current balance: 2.014095 BTC</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </a>
-                                                            </li><!-- .invest-cc-item -->
-                                                            <li class="invest-cc-item">
-                                                                <a href="#" class="invest-cc-opt" data-plan="dimond">
-                                                                    <div class="coin-item">
-                                                                        <div class="coin-icon">
-                                                                            <em class="icon ni ni-sign-usd"></em>
-                                                                        </div>
-                                                                        <div class="coin-info">
-                                                                            <span class="coin-name">USD Wallet</span>
-                                                                            <span class="coin-text">Current balance: $18,934.84</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </a>
-                                                            </li><!-- .invest-cc-item -->
                                                         </ul>
                                                     </div>
                                                 </div><!-- .dropdown -->
-                                            </div><!-- .invest-field -->
-                                            <div class="invest-field form-group">
-                                                <div class="custom-control custom-control-xs custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="checkbox">
-                                                    <label class="custom-control-label" for="checkbox">I agree the <a href="#">terms and &amp; conditions.</a></label>
-                                                </div>
-                                            </div><!-- .invest-field -->
+                                            </div>
                                         </div><!-- .col -->
                                         <div class="col-xl-4 col-lg-5 offset-xl-1">
                                             <div class="card card-bordered ms-lg-4 ms-xl-0">
                                                 <div class="nk-iv-wg4">
                                                     <div class="nk-iv-wg4-sub">
-                                                        <h6 class="nk-iv-wg4-title title">Your Investment Details</h6>
+                                                        <h6 class="nk-iv-wg4-title title">Your Deposit Details</h6>
                                                         <ul class="nk-iv-wg4-overview g-2">
                                                             <li>
-                                                                <div class="sub-text">Name of scheme</div>
-                                                                <div class="lead-text">Silver Plan</div>
+                                                                <div class="sub-text">Payment Method</div>
+                                                                <div class="lead-text">Bank Of America</div>
                                                             </li>
                                                             <li>
-                                                                <div class="sub-text">Term of the scheme</div>
-                                                                <div class="lead-text">21 days</div>
+                                                                <div class="sub-text">Currency</div>
+                                                                <div class="lead-text">USD</div>
                                                             </li>
                                                             <li>
-                                                                <div class="sub-text">Daily profit</div>
-                                                                <div class="lead-text">$ 11.99</div>
+                                                                <div class="sub-text">Rounting/Reference</div>
+                                                                <div class="lead-text">442343243</div>
                                                             </li>
                                                             <li>
-                                                                <div class="sub-text">Daily profit %</div>
-                                                                <div class="lead-text">4.76 %</div>
+                                                                <div class="sub-text">Account Number</div>
+                                                                <div class="lead-text">2334 3434 3322</div>
                                                             </li>
                                                             <li>
-                                                                <div class="sub-text">Total net profit</div>
-                                                                <div class="lead-text">$ 249.99</div>
+                                                                <div class="sub-text">Min. Deposit</div>
+                                                                <div class="lead-text">$ 100.00</div>
                                                             </li>
                                                             <li>
-                                                                <div class="sub-text">Total Return</div>
-                                                                <div class="lead-text">$ 499.99</div>
+                                                                <div class="sub-text">Max. Deposit</div>
+                                                                <div class="lead-text">$ 100,000.00</div>
                                                             </li>
                                                             <li>
-                                                                <div class="sub-text">Term start at</div>
-                                                                <div class="lead-text">Today (12-04-2019)</div>
+                                                                <div class="sub-text">Review Time</div>
+                                                                <div class="lead-text">24 Hours</div>
                                                             </li>
                                                             <li>
-                                                                <div class="sub-text">Term end at</div>
-                                                                <div class="lead-text">12 - 25 - 2019</div>
+                                                                <div class="sub-text">Country</div>
+                                                                <div class="lead-text">USA</div>
                                                             </li>
                                                         </ul>
                                                     </div><!-- .nk-iv-wg4-sub -->
@@ -552,18 +530,18 @@
                                                         <ul class="nk-iv-wg4-list">
                                                             <li>
                                                                 <div class="sub-text">Payment Method</div>
-                                                                <div class="lead-text">NioWallet</div>
+                                                                <div class="lead-text">G-FOX WALLET - xxxx-2324</div>
                                                             </li>
                                                         </ul>
                                                     </div><!-- .nk-iv-wg4-sub -->
                                                     <div class="nk-iv-wg4-sub">
                                                         <ul class="nk-iv-wg4-list">
                                                             <li>
-                                                                <div class="sub-text">Amount to invest</div>
+                                                                <div class="sub-text">Deposit Amount</div>
                                                                 <div class="lead-text">$ 250.00</div>
                                                             </li>
                                                             <li>
-                                                                <div class="sub-text">Conversion Fee <span>(0.5%)</span></div>
+                                                                <div class="sub-text">Administration Fee <span>(0.5%)</span></div>
                                                                 <div class="lead-text">$ 1.25</div>
                                                             </li>
                                                         </ul>
@@ -577,6 +555,13 @@
                                                         </ul>
                                                     </div><!-- .nk-iv-wg4-sub -->
                                                     <div class="nk-iv-wg4-sub text-center bg-lighter">
+                                                        <!-- .Terms-field -->
+                                            <div class="invest-field form-group">
+                                                <div class="custom-control custom-control-xs custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox">
+                                                    <label class="custom-control-label" for="checkbox">I agree the <a href="#">terms and &amp; conditions.</a></label>
+                                                </div>
+                                            </div><!-- .Terms-field -->
                                                         <a class="btn btn-lg btn-primary ttu" data-bs-toggle="modal" href="#invest-plan">Confirm &amp; proceed</a>
                                                     </div><!-- .nk-iv-wg4-sub -->
                                                 </div><!-- .nk-iv-wg4 -->
@@ -767,9 +752,9 @@
             <div class="modal-content">
                 <div class="modal-body modal-body-md text-center">
                     <div class="nk-modal">
-                        <h4 class="nk-modal-title">Confirm Your Payment</h4>
+                        <h4 class="nk-modal-title">Confirm Your Deposit</h4>
                         <div class="nk-modal-text">
-                            <p>To confirm your payment of <strong>$251.25 (0.0054 BTC)</strong> on this order #93033939 using your <strong>NioWallet</strong>. Please enter your Wallet Pin code in order complete the payment or cancel.</p>
+                            <p>To confirm your Deposti of <strong>$251.25</strong> on this order #93033939 using the payment method <strong>Bank Of America</strong>. Please enter the Deposit code we send you by E-mail in order complete your Deposit.</p>
                         </div>
                         <div class="nk-modal-form">
                             <div class="form-group">
@@ -777,8 +762,8 @@
                             </div>
                         </div>
                         <div class="nk-modal-action">
-                            <a class="btn btn-lg btn-mw btn-primary" data-bs-dismiss="modal" data-bs-toggle="modal" href="#confirm-invest">Confirm Payment</a>
-                            <div class="sub-text sub-text-alt mt-3 mb-4">This transaction will appear on your wallet statement as Invest * SILVER.</div>
+                            <a class="btn btn-lg btn-mw btn-primary" data-bs-dismiss="modal" data-bs-toggle="modal" href="#confirm-invest">Confirm Deposit</a>
+                            <div class="sub-text sub-text-alt mt-3 mb-4">This Depsoti will appear on your wallet statement as Deposit * <strong>DEPOSIT ID</strong>.</div>
                             <a href="#" class="link link-soft" data-bs-dismiss="modal">Cancel and return</a>
                         </div>
                     </div>
@@ -794,21 +779,21 @@
                 <div class="modal-body modal-body-lg text-center">
                     <div class="nk-modal">
                         <em class="nk-modal-icon icon icon-circle icon-circle-xxl ni ni-check bg-success"></em>
-                        <h4 class="nk-modal-title">Successfully sent payment!</h4>
+                        <h4 class="nk-modal-title">Deposit Successfully!</h4>
                         <div class="nk-modal-text">
-                            <p class="sub-text">You have successfully order the Investment Plan of ‘Silver’ with amount of <strong>$250.00</strong> using your <strong>NioWallet</strong>.</p>
+                            <p class="sub-text">Your deposit of <strong>$250.00</strong> using the payment method <strong>PAYMENT METHOD</strong> is under review. We going to process and confirm your Deposit</p>
                         </div>
                         <div class="nk-modal-action-lg">
                             <ul class="btn-group flex-wrap justify-center g-4">
-                                <li><a href="html/invest/invest.html" class="btn btn-lg btn-mw btn-primary">More Invest</a></li>
-                                <li><a href="html/invest/scheme-details.html" class="btn btn-lg btn-mw btn-dim btn-primary"><em class="icon ni ni-reports"></em><span>See the plan</span></a></li>
+                                <li><a href="invest.html" class="btn btn-lg btn-mw btn-primary">Invest Now</a></li>
+                                <li><a href="Funds_details.html" class="btn btn-lg btn-mw btn-dim btn-primary"><em class="icon ni ni-reports"></em><span>Deposit Status</span></a></li>
                             </ul>
                         </div>
                     </div>
                 </div><!-- .modal-body -->
                 <div class="modal-footer bg-lighter">
                     <div class="text-center w-100">
-                        <p>Earn upto $25 for each friend your refer! <a href="#">Invite friends</a></p>
+                        <p>The processing time for deposit is 2 to 24 Hours. <a href="#">Processing Time</a></p>
                     </div>
                 </div>
             </div><!-- .modal-content -->
