@@ -2,6 +2,7 @@
 <html lang="zxx" class="js">
 
 <head>
+   
     <meta charset="utf-8">
     <meta name="author" content="Softnio">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,7 +10,7 @@
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="./images/favicon.png">
     <!-- Page Title  -->
-    <title>Scheme / Plan Detail - Invest | G-Fox </title>
+    <title>Withdraw Funds | G-FOX Capital</title>
     <!-- StyleSheets  -->
     <link rel="stylesheet" href="./assets/css/dashlite.css?ver=3.0.2">
     <link id="skin-default" rel="stylesheet" href="./assets/css/theme.css?ver=3.0.2">
@@ -261,218 +262,260 @@
                 <div class="container-xl wide-lg">
                     <div class="nk-content-inner">
                         <div class="nk-content-body">
-                            <div class="nk-block-head">
+                            <div class="nk-block-head nk-block-head-lg">
                                 <div class="nk-block-head-content">
-                                    <div class="nk-block-head-sub"><a href="schemes.html" class="text-soft back-to"><em class="icon ni ni-arrow-left"> </em><span>My Investment</span></a></div>
-                                    <div class="nk-block-between-md g-4">
-                                        <div class="nk-block-head-content">
-                                            <h2 class="nk-block-title fw-normal">Silver - Daily 4.76% for 21 Days</h2>
-                                            <div class="nk-block-des">
-                                                <p>INV-498238 <span class="badge bg-outline bg-primary">Running</span></p>
-                                            </div>
-                                        </div>
-                                        <div class="nk-block-head-content">
-                                            <ul class="nk-block-tools gx-3">
-                                                <li class="order-md-last"><a href="#" class="btn btn-danger"><em class="icon ni ni-cross"></em> <span>Cancel this plan</span> </a></li>
-                                                <li><a href="#" class="btn btn-icon btn-light"><em class="icon ni ni-reload"></em></a></li>
-                                            </ul>
-                                        </div>
+                                    <div class="nk-block-head-content">
+                                        <h2 class="nk-block-title fw-normal">Ready to get started?</h2>
                                     </div>
                                 </div>
-                            </div><!-- .nk-block-head -->
-                            <div class="nk-block">
-                                <div class="card card-bordered">
-                                    <div class="card-inner">
-                                        <div class="row gy-gs">
-                                            <div class="col-md-6">
-                                                <div class="nk-iv-wg3">
-                                                    <div class="nk-iv-wg3-group flex-lg-nowrap gx-4">
-                                                        <div class="nk-iv-wg3-sub">
-                                                            <div class="nk-iv-wg3-amount">
-                                                                <div class="number">2,500.00</div>
+                            </div><!-- nk-block-head -->
+                            <div class="nk-block invest-block">
+                                <form action="#" class="invest-form">
+                                    <div class="row g-gs">
+                                        <div class="col-lg-7">
+                                            <!-- .Note-field -->
+                                            <div class="invest-field form-group">
+                                                <div class="form-label-group">
+                                                    <label class="form-label">1. Your Account Balance</label>
+                                                </div>
+                                                <input type="hidden" value="wallet" name="iv-wallet" id="invest-choose-wallet">
+                                                <div class="dropdown invest-cc-dropdown">
+                                                    <a href="#" class="invest-cc-chosen dropdown-indicator" data-bs-toggle="dropdown">
+                                                        <div class="coin-item">
+                                                            <div class="coin-icon">
+                                                                <em class="icon ni ni-wallet-alt"></em>
                                                             </div>
-                                                            <div class="nk-iv-wg3-subtitle">Invested Amount</div>
-                                                        </div>
-                                                        <div class="nk-iv-wg3-sub">
-                                                            <span class="nk-iv-wg3-plus text-soft"><em class="icon ni ni-plus"></em></span>
-                                                            <div class="nk-iv-wg3-amount">
-                                                                <div class="number">1,643.76 <span class="number-up">4.76 %</span></div>
+                                                            <div class="coin-info">
+                                                                <span class="coin-name">G-FOX Wallet</span>
+                                                                <span class="coin-text">Current balance: 2.014095 BTC ( $18,934.84 )</span>
                                                             </div>
-                                                            <div class="nk-iv-wg3-subtitle">Profit Earned</div>
                                                         </div>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-auto dropdown-menu-mxh">
+                                                        <ul class="invest-cc-list">
+                                                        </ul>
                                                     </div>
-                                                </div>
-                                            </div><!-- .col -->
-                                            <div class="col-md-6 col-lg-4 offset-lg-2">
-                                                <div class="nk-iv-wg3 ps-md-3">
-                                                    <div class="nk-iv-wg3-group flex-lg-nowrap gx-4">
-                                                        <div class="nk-iv-wg3-sub">
-                                                            <div class="nk-iv-wg3-amount">
-                                                                <div class="number">4,999.90 <span class="number-down">1017.14 <em class="icon ni ni-info-fill" data-bs-toggle="tooltip" data-bs-placement="right" title="tooltip text"></em></span></div>
+                                                </div><!-- .dropdown -->
+                                            </div>
+                                            <label class="form-label">2. Select Withdraw Method</label>
+                                            <div class="invest-field form-group">
+                                                <input type="hidden" value="silver" name="iv-plan" id="invest-choose-plan">
+                                                <div class="dropdown invest-cc-dropdown">
+                                                    <a href="#" class="invest-cc-chosen dropdown-indicator" data-bs-toggle="dropdown">
+                                                        <div class="coin-item">
+                                                            <div class="coin-icon">
+                                                                <em class=""><img  srcset="./images/PmtIcons/stripe.SVG" alt="logo" style="width:40px;height:40px;"></em>
                                                             </div>
-                                                            <div class="nk-iv-wg3-subtitle">Total Return</div>
+                                                            <div class="coin-info">
+                                                                <span class="coin-name">DEBIT CARD</span>
+                                                                <span class="coin-text">DEBIT CARD - Min. Deposit $100.00 USD - Max. Deposit $5,000.00 USD</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-auto dropdown-menu-mxh">
+                                                        <ul class="invest-cc-list">
+                                                            <li class="invest-cc-item selected">
+                                                                <a href="#" class="invest-cc-opt" data-plan="silver">
+                                                                    <div class="coin-item">
+                                                                        <div class="coin-icon">
+                                                                            <em class=""><img  srcset="./images/PmtIcons/BOA.SVG" alt="logo"></em>
+                                                                        </div>
+                                                                        <div class="coin-info">
+                                                                            <span class="coin-name">Bank Of America</span>
+                                                                            <span class="coin-text">Cashier Check or Wire only - Min. Deposit $100.00 USD - Max. Deposit $100,000.00 USD</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li class="invest-cc-item selected">
+                                                                <a href="#" class="invest-cc-opt" data-plan="silver">
+                                                                    <div class="coin-item">
+                                                                        <div class="coin-icon">
+                                                                            <em class=""><img  srcset="./images/PmtIcons/wellsfargo.SVG" alt="logo"></em>
+                                                                        </div>
+                                                                        <div class="coin-info">
+                                                                            <span class="coin-name">Wells Fargo</span>
+                                                                            <span class="coin-text">Cashier Check or Wire only - Min. Deposit $100.00 USD - Max. Deposit $100,000.00 USD</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li class="invest-cc-item selected">
+                                                                <a href="#" class="invest-cc-opt" data-plan="starter">
+                                                                    <div class="coin-item">
+                                                                        <div class="coin-icon">
+                                                                            <em class=""><img  srcset="./images/PmtIcons/ZELLE.SVG" alt="logo"></em>
+                                                                        </div>
+                                                                        <div class="coin-info">
+                                                                            <span class="coin-name">Zelle</span>
+                                                                            <span class="coin-text">Min. Deposit $100.00 USD - Max. Deposit $3,500.00 USD</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li class="invest-cc-item">
+                                                                <a href="#" class="invest-cc-opt" data-plan="dimond">
+                                                                    <div class="coin-item">
+                                                                        <div class="coin-icon">
+                                                                            <em class=""><img  srcset="./images/PmtIcons/Paypal.SVG" alt="logo"></em>
+                                                                        </div>
+                                                                        <div class="coin-info">
+                                                                            <span class="coin-name">Paypal</span>
+                                                                            <span class="coin-text">Min. Deposit $100.00 USD - Max. Deposit $3,500.00 USD Available Between 24H to 48H.</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li class="invest-cc-item">
+                                                                <a href="#" class="invest-cc-opt" data-plan="dimond">
+                                                                    <div class="coin-item">
+                                                                        <div class="coin-icon">
+                                                                            <em class=""><img  srcset="./images/PmtIcons/USDTERC20.SVG" alt="logo"></em>
+                                                                        </div>
+                                                                        <div class="coin-info">
+                                                                            <span class="coin-name">USDT ERC20</span>
+                                                                            <span class="coin-text">Min. Deposit $100.00 USD - Max. Deposit $100,000.00 USD Available: Inmidiatly.</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li class="invest-cc-item">
+                                                                <a href="#" class="invest-cc-opt" data-plan="dimond">
+                                                                    <div class="coin-item">
+                                                                        <div class="coin-icon">
+                                                                            <em class=""><img  srcset="./images/PmtIcons/Paypal.SVG" alt="logo"></em>
+                                                                        </div>
+                                                                        <div class="coin-info">
+                                                                            <span class="coin-name">BANCO POPULAR DOMINICANO</span>
+                                                                            <span class="coin-text">Cashier Check or Wire only - Min. Deposit $100.00 USD - Max. Deposit $100,000.00 USD</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li class="invest-cc-item">
+                                                                <a href="#" class="invest-cc-opt" data-plan="dimond">
+                                                                    <div class="coin-item">
+                                                                        <div class="coin-icon">
+                                                                            <em class=""><img srcset="./images/PmtIcons/BANCOLOMBIA.SVG" alt="logo" style="width:40px;height:40px;"></em>
+                                                                        </div>
+                                                                        <div class="coin-info">
+                                                                            <span class="coin-name">BANCOLOMBIA</span>
+                                                                            <span class="coin-text">Cashier Check or Wire only - Min. Deposit $100.00 USD - Max. Deposit $100,000.00 USD</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div><!-- .dropdown -->
+                                            </div><!-- .invest-field -->
+                                           <!-- .invest-field -->
+                                            <div class="invest-field form-group">
+                                                <div class="form-label-group">
+                                                    <label class="form-label">3. Enter Your Amount</label>
+                                                    <div class="dropdown">
+                                                        <a href="#" class="link py-1" data-bs-toggle="dropdown">Change Currency</a>
+                                                        <div class="dropdown-menu dropdown-menu-xxs dropdown-menu-end">
+                                                            <ul class="link-list-plain sm text-center">
+                                                                <li><a href="#">USD</a></li>
+                                                                <li><a href="#">USDT</a></li>
+                                                                <li><a href="#">DOP</a></li>
+                                                                <li><a href="#">COP</a></li>
+                                                            </ul>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div><!-- .col -->
-                                        </div><!-- .row -->
-                                    </div>
-                                    <div id="schemeDetails" class="nk-iv-scheme-details">
-                                        <ul class="nk-iv-wg3-list">
-                                            <li>
-                                                <div class="sub-text">Term</div>
-                                                <div class="lead-text">21 Days</div>
-                                            </li>
-                                            <li>
-                                                <div class="sub-text">Term start at</div>
-                                                <div class="lead-text">Nov 4, 2019 05:42 AM</div>
-                                            </li>
-                                            <li>
-                                                <div class="sub-text">Term end at</div>
-                                                <div class="lead-text">Nov 25, 2019 05:42 AM</div>
-                                            </li>
-                                            <li>
-                                                <div class="sub-text">Daily interest</div>
-                                                <div class="lead-text">4.76%</div>
-                                            </li>
-                                        </ul><!-- .nk-iv-wg3-list -->
-                                        <ul class="nk-iv-wg3-list">
-                                            <li>
-                                                <div class="sub-text">Ordered date</div>
-                                                <div class="lead-text">Nov 2, 2019 10:54 PM</div>
-                                            </li>
-                                            <li>
-                                                <div class="sub-text">Approved date</div>
-                                                <div class="lead-text">Nov 4, 2019 05:42 AM</div>
-                                            </li>
-                                            <li>
-                                                <div class="sub-text">Payment method</div>
-                                                <div class="lead-text">NioWallet</div>
-                                            </li>
-                                            <li>
-                                                <div class="sub-text">Paid <small>(fee include)</small></div>
-                                                <div class="lead-text"><span class="currency currency-usd">USD</span> 2,535.75</div>
-                                            </li>
-                                        </ul><!-- .nk-iv-wg3-list -->
-                                        <ul class="nk-iv-wg3-list">
-                                            <li>
-                                                <div class="sub-text">Captial invested</div>
-                                                <div class="lead-text"><span class="currency currency-usd">USD</span> 2,500.00</div>
-                                            </li>
-                                            <li>
-                                                <div class="sub-text">Daily profit</div>
-                                                <div class="lead-text"><span class="currency currency-usd">USD</span> 119.10</div>
-                                            </li>
-                                            <li>
-                                                <div class="sub-text">Net profit</div>
-                                                <div class="lead-text"><span class="currency currency-usd">USD</span> 2,499.90</div>
-                                            </li>
-                                            <li>
-                                                <div class="sub-text">Total return</div>
-                                                <div class="lead-text"><span class="currency currency-usd">USD</span> 4,999.90</div>
-                                            </li>
-                                        </ul><!-- .nk-iv-wg3-list -->
-                                    </div><!-- .nk-iv-scheme-details -->
-                                </div>
-                            </div><!-- .nk-block -->
-                            <div class="nk-block nk-block-lg">
-                                <div class="nk-block-head">
-                                    <h5 class="nk-block-title">Graph View</h5>
-                                </div>
-                                <div class="row g-gs">
-                                    <div class="col-lg-5">
-                                        <div class="card card-bordered h-100">
-                                            <div class="card-inner justify-center text-center h-100">
-                                                <div class="nk-iv-wg5">
-                                                    <div class="nk-iv-wg5-head">
-                                                        <h5 class="nk-iv-wg5-title">Overview</h5>
-                                                    </div>
-                                                    <div class="nk-iv-wg5-ck">
-                                                        <input type="text" class="knob-half" value="68.9" data-fgColor="#6576ff" data-bgColor="#d9e5f7" data-thickness=".06" data-width="300" data-height="155" data-displayInput="false">
-                                                        <div class="nk-iv-wg5-ck-result">
-                                                            <div class="text-lead">68.9%</div>
-                                                            <div class="text-sub">112.54 / per day</div>
-                                                        </div>
-                                                        <div class="nk-iv-wg5-ck-minmax"><span>2,500.00</span><span>4,999.90</span></div>
-                                                    </div>
+                                                <div class="form-control-group">
+                                                    <div class="form-info">USD</div>
+                                                    <input type="text" class="form-control form-control-amount form-control-lg" id="custom-amount" value="100.00">
+                                                    <div class="form-range-slider" id="amount-step"></div>
                                                 </div>
+                                                <div class="form-note pt-2">Note: Minimum invest 100 USD and upto 2,000 USD</div>
                                             </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                    <div class="col-lg col-sm-6">
-                                        <div class="card card-bordered h-100">
-                                            <div class="card-inner justify-center text-center h-100">
-                                                <div class="nk-iv-wg5">
-                                                    <div class="nk-iv-wg5-head">
-                                                        <h5 class="nk-iv-wg5-title">Net Profit</h5>
-                                                        <div class="nk-iv-wg5-subtitle">Earn so far <strong>1,643.76</strong> <span class="currency currency-usd">USD</span></div>
-                                                    </div>
-                                                    <div class="nk-iv-wg5-ck sm">
-                                                        <input type="text" class="knob-half" value="68.9" data-fgColor="#33d895" data-bgColor="#d9e5f7" data-thickness=".07" data-width="240" data-height="125" data-displayInput="false">
-                                                        <div class="nk-iv-wg5-ck-result">
-                                                            <div class="text-lead sm">4.76%</div>
-                                                            <div class="text-sub">Daily profit</div>
-                                                        </div>
-                                                        <div class="nk-iv-wg5-ck-minmax"><span>0.00</span><span>2,999.90</span></div>
-                                                    </div>
+                                        </div><!-- .col -->
+                                        <div class="col-xl-4 col-lg-5 offset-xl-1">
+                                            <div class="card card-bordered ms-lg-4 ms-xl-0">
+                                                <div class="nk-iv-wg4">
+                                                    <div class="nk-iv-wg4-sub">
+                                                        <h6 class="nk-iv-wg4-title title">Your Withdraw Details</h6>
+                                                        <ul class="nk-iv-wg4-overview g-2">
+                                                            <li>
+                                                                <div class="sub-text">Withdraw Method</div>
+                                                                <div class="lead-text">Bank Of America</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="sub-text">Currency</div>
+                                                                <div class="lead-text">USD</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="sub-text">Rounting/Reference</div>
+                                                                <div class="lead-text">442343243</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="sub-text">Account Number</div>
+                                                                <div class="lead-text">2334 3434 3322</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="sub-text">Min. Deposit</div>
+                                                                <div class="lead-text">$ 100.00</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="sub-text">Max. Deposit</div>
+                                                                <div class="lead-text">$ 100,000.00</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="sub-text">Review Time</div>
+                                                                <div class="lead-text">24 Hours</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="sub-text">Country</div>
+                                                                <div class="lead-text">USA</div>
+                                                            </li>
+                                                        </ul>
+                                                    </div><!-- .nk-iv-wg4-sub -->
+                                                    <div class="nk-iv-wg4-sub">
+                                                        <ul class="nk-iv-wg4-list">
+                                                            <li>
+                                                                <div class="sub-text">Withdraw Method</div>
+                                                                <div class="lead-text">G-FOX WALLET - xxxx-2324</div>
+                                                            </li>
+                                                        </ul>
+                                                    </div><!-- .nk-iv-wg4-sub -->
+                                                    <div class="nk-iv-wg4-sub">
+                                                        <ul class="nk-iv-wg4-list">
+                                                            <li>
+                                                                <div class="sub-text">Deposit Amount</div>
+                                                                <div class="lead-text">$ 250.00</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="sub-text">Administration Fee <span>(0.5%)</span></div>
+                                                                <div class="lead-text">$ 1.25</div>
+                                                            </li>
+                                                        </ul>
+                                                    </div><!-- .nk-iv-wg4-sub -->
+                                                    <div class="nk-iv-wg4-sub">
+                                                        <ul class="nk-iv-wg4-list">
+                                                            <li>
+                                                                <div class="lead-text">Total Charge</div>
+                                                                <div class="caption-text text-primary">$ 251.25</div>
+                                                            </li>
+                                                        </ul>
+                                                    </div><!-- .nk-iv-wg4-sub -->
+                                                    <div class="nk-iv-wg4-sub text-center bg-lighter">
+                                                        <!-- .Terms-field -->
+                                            <div class="invest-field form-group">
+                                                <div class="custom-control custom-control-xs custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox">
+                                                    <label class="custom-control-label" for="checkbox">I agree the <a href="#">Terms and &amp; Conditions.</a></label>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                    <div class="col-lg col-sm-6">
-                                        <div class="card card-bordered h-100">
-                                            <div class="card-inner justify-center text-center h-100">
-                                                <div class="nk-iv-wg5">
-                                                    <div class="nk-iv-wg5-head">
-                                                        <h5 class="nk-iv-wg5-title">Day Remain</h5>
-                                                        <div class="nk-iv-wg5-subtitle">Earn so far <strong>1,643.76</strong> <span class="currency currency-usd">USD</span></div>
-                                                    </div>
-                                                    <div class="nk-iv-wg5-ck sm">
-                                                        <input type="text" class="knob-half" value="68.9" data-fgColor="#816bff" data-bgColor="#d9e5f7" data-thickness=".07" data-width="240" data-height="125" data-displayInput="false">
-                                                        <div class="nk-iv-wg5-ck-result">
-                                                            <div class="text-lead sm">8 D</div>
-                                                            <div class="text-sub">day remain</div>
-                                                        </div>
-                                                        <div class="nk-iv-wg5-ck-minmax"><span>0</span><span>21</span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                </div><!-- .row -->
-                            </div><!-- .nk-block -->
-                            <div class="nk-block nk-block-lg">
-                                <div class="nk-block-head">
-                                    <h5 class="nk-block-title">Transactions</h5>
-                                </div>
-                                <div class="card card-bordered">
-                                    <table class="table table-iv-tnx">
-                                        <thead class="table-light">
-                                            <tr>
-                                                <th class="tb-col-type"><span class="overline-title">Type</span></th>
-                                                <th class="tb-col-date"><span class="overline-title">Date</span></th>
-                                                <th class="tb-col-time tb-col-end"><span class="overline-title">Amount</span></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="tb-col-type"><span class="sub-text">Investment</span></td>
-                                                <td class="tb-col-date"><span class="sub-text">04 Nov, 2018</span></td>
-                                                <td class="tb-col-time tb-col-end"><span class="lead-text text-danger">- 2,500.00</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="tb-col-type"><span class="sub-text">Profit - 4.76%</span></td>
-                                                <td class="tb-col-date"><span class="sub-text">05 Nov, 2018</span></td>
-                                                <td class="tb-col-time tb-col-end"><span class="lead-text">+ 119.10</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="tb-col-type"><span class="sub-text">Profit - 4.76%</span></td>
-                                                <td class="tb-col-date"><span class="sub-text">06 Nov, 2018</span></td>
-                                                <td class="tb-col-time tb-col-end"><span class="lead-text">+ 119.10</span></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div><!-- .card -->
+                                            </div><!-- .Terms-field -->
+                                                        <a class="btn btn-lg btn-primary ttu" data-bs-toggle="modal" href="#invest-plan">Confirm &amp; Proceed</a>
+                                                    </div><!-- .nk-iv-wg4-sub -->
+                                                </div><!-- .nk-iv-wg4 -->
+                                            </div><!-- .card -->
+                                        </div><!-- .col -->
+                                    </div><!-- .row -->
+                                </form>
                             </div><!-- .nk-block -->
                         </div>
                     </div>
@@ -483,7 +526,7 @@
             <div class="nk-footer nk-footer-fluid bg-lighter">
                 <div class="container-xl wide-lg">
                     <div class="nk-footer-wrap">
-                        <div class="nk-footer-copyright"> &copy; 2022 DashLite. Template by <a href="#">Softnio</a>
+                        <div class="nk-footer-copyright"> &copy; 2022 G-FOX. Template by <a href="#">G-FOX</a>
                         </div>
                         <div class="nk-footer-links">
                             <ul class="nav nav-sm">
@@ -645,6 +688,59 @@
                                 </a>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div><!-- .modal-content -->
+        </div><!-- .modla-dialog -->
+    </div><!-- .modal -->
+    <!-- @@ Invest Modal @e -->
+    <div class="modal fade" tabindex="-1" id="invest-plan">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <div class="modal-body modal-body-md text-center">
+                    <div class="nk-modal">
+                        <h4 class="nk-modal-title">Confirm Your Deposit</h4>
+                        <div class="nk-modal-text">
+                            <p>To confirm your Deposti of <strong>$251.25</strong> on this order #93033939 using the payment method <strong>Bank Of America</strong>. Please enter the Deposit code we send you by E-mail in order complete your Deposit.</p>
+                        </div>
+                        <div class="nk-modal-form">
+                            <div class="form-group">
+                                <input type="password" class="form-control form-control-password-big text-center">
+                            </div>
+                        </div>
+                        <div class="nk-modal-action">
+                            <a class="btn btn-lg btn-mw btn-primary" data-bs-dismiss="modal" data-bs-toggle="modal" href="#confirm-invest">Confirm Deposit</a>
+                            <div class="sub-text sub-text-alt mt-3 mb-4">This Depsoti will appear on your wallet statement as Deposit * <strong>DEPOSIT ID</strong>.</div>
+                            <a href="#" class="link link-soft" data-bs-dismiss="modal">Cancel and return</a>
+                        </div>
+                    </div>
+                </div><!-- .modal-body -->
+            </div><!-- .modal-content -->
+        </div><!-- .modla-dialog -->
+    </div><!-- .modal -->
+    <!-- @@ Confirm Invest Modal @e -->
+    <div class="modal fade" tabindex="-1" id="confirm-invest">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <a href="#" class="close" data-bs-dismiss="modal"><em class="icon ni ni-cross-sm"></em></a>
+                <div class="modal-body modal-body-lg text-center">
+                    <div class="nk-modal">
+                        <em class="nk-modal-icon icon icon-circle icon-circle-xxl ni ni-check bg-success"></em>
+                        <h4 class="nk-modal-title">Deposit Successfully!</h4>
+                        <div class="nk-modal-text">
+                            <p class="sub-text">Your deposit of <strong>$250.00</strong> using the payment method <strong>PAYMENT METHOD</strong> is under review. We going to process and confirm your Deposit</p>
+                        </div>
+                        <div class="nk-modal-action-lg">
+                            <ul class="btn-group flex-wrap justify-center g-4">
+                                <li><a href="invest.html" class="btn btn-lg btn-mw btn-primary">Invest Now</a></li>
+                                <li><a href="Funds_details.html" class="btn btn-lg btn-mw btn-dim btn-primary"><em class="icon ni ni-reports"></em><span>Deposit Status</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- .modal-body -->
+                <div class="modal-footer bg-lighter">
+                    <div class="text-center w-100">
+                        <p>The processing time for deposit is 2 to 24 Hours. <a href="#">Processing Time</a></p>
                     </div>
                 </div>
             </div><!-- .modal-content -->
